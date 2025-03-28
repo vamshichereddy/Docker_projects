@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DevOps Resources</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #00ffcc;
+}
+
+/* Create two columns/boxes that float next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* For demo purposes */
+  background: #222;
+  padding: 20px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #00ffcc;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* For demo purposes */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+  color: #00ffcc;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>DevOps Resources & Learning</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://github.com/vamshichereddy">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/vamshich-712845130/">LinkedIn</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Agenda</h1>
+    <p>Enhance your DevOps skills with hands-on projects and best practices.</p>
+    <p>Follow and connect for more DevOps insights and opportunities.</p>
+  </article>
+</section>
+
+<footer>
+  <p>© Vamshi Chereddy - DevOps Engineer</p>
+</footer>
+
+</body>
+</html>
